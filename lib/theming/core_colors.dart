@@ -1,8 +1,8 @@
 //
 import 'package:flutter/material.dart';
 
-class AppColors {
-  AppColors._();
+class CoreColors {
+  CoreColors._();
 
   static const Color greyText = Color(0xFF898989);
   static const Color background = Color(0xFFF9F9F9);

@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:my_core/extensions/extensions.dart';
-import 'package:my_core/theming/app_colors.dart';
+import 'package:my_core/theming/core_colors.dart';
 
 class AppTextField extends StatelessWidget {
   const AppTextField({
@@ -77,7 +77,7 @@ class AppTextField extends StatelessWidget {
                 border: InputBorder.none,
                 hintText: hint,
                 hintStyle: style?.copyWith(
-                  color: AppColors.greyText,
+                  color: CoreColors.greyText,
                 ),
               ),
             ),

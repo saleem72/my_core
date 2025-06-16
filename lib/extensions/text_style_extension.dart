@@ -3,11 +3,11 @@
 import 'package:flutter/material.dart';
 import 'package:my_core/theming/pallet.dart';
 
-import '../theming/app_colors.dart';
+import '../theming/core_colors.dart';
 
 extension TextStyleProperties on TextStyle {
   TextStyle get primary => copyWith(color: Pallet.primary);
-  TextStyle get gray => copyWith(color: AppColors.greyText);
+  TextStyle get gray => copyWith(color: CoreColors.greyText);
 
   TextStyle size(double size) => copyWith(fontSize: size);
 
