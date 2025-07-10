@@ -24,6 +24,8 @@ extension BuildContextDetails on BuildContext {
 
   bool get isArabic => directionality == TextDirection.rtl;
 
+  bool get isDarkMood => Theme.of(this).brightness == Brightness.dark;
+
   bool get isTablet =>
       mediaQuery.size.width >= kMobileMaxSize &&
       mediaQuery.size.width <= kTabletMaxSize;
