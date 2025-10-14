@@ -28,6 +28,18 @@ int? maybeInt(dynamic value) {
   return null;
 }
 
+bool? maybeBool(dynamic value) {
+  if (value is bool) {
+    return value;
+  }
+
+  if (value is num) {
+    return value == 1;
+  }
+
+  return null;
+}
+
 extension DynamicDetails on dynamic {
   String get enumDescription => toString().split('.').last.capitalize();
 
@@ -61,6 +73,18 @@ extension DynamicDetails on dynamic {
       } else {
         return 0;
       }
+    }
+
+    return null;
+  }
+
+  bool? maybeBool() {
+    if (this is bool) {
+      return this;
+    }
+
+    if (this is num) {
+      return this == 1;
     }
 
     return null;
