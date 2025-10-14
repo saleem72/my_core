@@ -56,7 +56,6 @@ class _GradientIconPainter extends CustomPainter {
   /// - `gradient`: The Gradient object defining the gradient colors and stops.
   /// - `iconSize`: The size of the icon.
   _GradientIconPainter({
-    super.repaint,
     required this.icon,
     required this.gradient,
     required this.iconSize,
