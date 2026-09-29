@@ -16,7 +16,7 @@ class DarkStyles {
     primary: Pallet.primary.shade800,
     secondary: Pallet.secondary,
     tertiary: Pallet.tertiary,
-    background: Pallet.neutral.shade800,
+    surface: Pallet.neutral.shade800,
   );
 
   static final ProgressIndicatorThemeData progressIndicatorTheme =
@@ -113,7 +113,7 @@ class LightStyles {
     primary: Pallet.primary.shade500,
     secondary: Pallet.secondary,
     tertiary: Pallet.tertiary,
-    background: Pallet.neutral.shade50,
+    surface: Pallet.neutral.shade50,
   );
 
   static TextTheme textTheme() {

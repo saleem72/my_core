@@ -19,5 +19,5 @@ extension HexColorOnString on String {
 }
 
 extension HexColorOnColor on Color {
-  String hex() => value.toRadixString(16);
+  String hex() => toARGB32().toRadixString(16);
 }

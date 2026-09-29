@@ -174,7 +174,7 @@ class _CircularNotchedPainter extends CustomPainter {
     final outerPath = getOuterPath(rect, guest);
     canvas.drawPath(outerPath, stroker);
     canvas.drawShadow(outerPath.shift(const Offset(-5, -8)),
-        Colors.red.withOpacity(0.6), 4.0, false);
+        Colors.red.withValues(alpha: 0.6), 4.0, false);
   }
 
   @override

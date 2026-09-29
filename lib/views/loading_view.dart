@@ -26,7 +26,7 @@ class LoadingView extends StatelessWidget {
                 elevation: 4,
                 child: Container(
                   decoration: BoxDecoration(
-                    color: context.colorScheme.background,
+                    color: context.colorScheme.surface,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   padding: const EdgeInsets.all(32),
